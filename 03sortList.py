@@ -14,7 +14,7 @@ def sorting(lst):
 
 
 def insertion(lst,temp):
-    if(len(lst)==0 or lst[len(lst)-1]<temp):      # if no element remains in list then append or temp is greater than last element
+    if(lst == [] or lst[len(lst)-1]<temp):      # if no element remains in list then append or temp is greater than last element
         lst.append(temp)
         return
     x = lst.pop()    #insertion at proper position will only happens if there are no elements present in the list
