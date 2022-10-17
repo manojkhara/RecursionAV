@@ -12,6 +12,14 @@ Given two integer n and k, return the kth (1-indexed) symbol in the nth row of a
 
 """
 
+"""
+0
+01
+0110
+01101001
+"""
+
+
 def kthGrammar(n: int, k: int) -> int:
 
     if n == 1 and k == 1:
